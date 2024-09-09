@@ -147,7 +147,7 @@ function placePipes() {
 }
 
 function moveBird(e){
-    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
+    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX" || e.code == "touchmove") {
      velocityY = -6;
     }
     if(gameOver) {
