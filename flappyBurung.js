@@ -148,15 +148,7 @@ function placePipes() {
 
 function moveBird(e){
     if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
-        document.querySelector('p').addEventListener('touchstart', f);
-        document.querySelector('p').addEventListener('touchend', f);
-        document.querySelector('p').addEventListener('touchmove', f);
-        
-        function f(ev){
-            console.log( ev.touches, ev.type );
-        }
-        
-        velocityY = -6;
+     velocityY = -6;
     }
     if(gameOver) {
         bird.y = birdY;
